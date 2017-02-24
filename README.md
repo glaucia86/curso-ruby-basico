@@ -1,12 +1,12 @@
-# Curso Básico - Ruby
+# Curso de Ruby - Básico I
 
 Curso de Ruby, de conceitos básicos, com inteção de iniciar os estudos com a linguagem.
 Curso realizado pela plataforma - School of Net.
 
 ## Recursos Utilizados no Desenvolvimento:
 
-* Ruby ~
-* 
+* Ruby ~ 2.2.6
+
 
 ## Ementa dos conteúdos estudados durante o Curso:
 
