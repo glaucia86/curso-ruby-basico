@@ -3,12 +3,12 @@
 Curso de Ruby, de conceitos básicos, com inteção de iniciar os estudos com a linguagem.
 Curso realizado pela plataforma - School of Net.
 
-- Recursos Utilizados no Desenvolvimento:
+## Recursos Utilizados no Desenvolvimento:
 
 * Ruby ~
 * 
 
-- Ementa dos conteúdos estudados durante o Curso:
+## Ementa dos conteúdos estudados durante o Curso:
 
 * 1) Introdução
 * 2) Preparação ambiente de desenvolvimento;
