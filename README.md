@@ -23,7 +23,8 @@ Link da apostila da Caelum: [AQUI](https://www.caelum.com.br/apostila-ruby-on-ra
 * 5) Operadores
 * 6) Condicionais
 * 7) Métodos e blocks
-* 8) Tipo
+* 8) Classes
+* 9) Tipo
 * 9) Iterações
 * 10) Trabalhando com coleções
 * 11) Input e Output (IO)
