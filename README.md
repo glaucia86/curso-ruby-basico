@@ -2,11 +2,17 @@
 
 Curso de Ruby, de conceitos básicos, com inteção de iniciar os estudos com a linguagem.
 Curso realizado pela plataforma - School of Net.
+Ao mesmo tempo, visando fixar os conhecimentos sobre a linguagem, estarei realizando os exercícios 
+da apostila da Caelum.
+
 
 ## Recursos Utilizados no Desenvolvimento:
 
 * Ruby ~ 2.2.6
 
+## Referência de estudos:
+
+Link da apostila da Caelum: [AQUI](https://www.caelum.com.br/apostila-ruby-on-rails/)
 
 ## Ementa dos conteúdos estudados durante o Curso:
 
