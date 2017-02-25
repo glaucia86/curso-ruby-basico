@@ -14,9 +14,13 @@ class Pessoa
 	end
 
 	def troca(roupa, lugar="banheiro")
-		puts "Estou trocando a #{roupa} no #{lugar}"
+		puts "Estou trocando #{roupa} no #{lugar}"
 	end
 end
 
 # O objeto apontado por 'p' já nasce com os métodos 'fala' e 'troca'
 p = Pessoa.new
+# p.class
+
+p.fala()
+p.troca("Vestido", "banheiro")
