@@ -8,8 +8,11 @@
 # Exercício: 4.4 - Métodos:
 
 # declaração do método
-def qualifica(nota)
-	puts "A nota do restaurante foi #{nota}"
+def qualifica(nota, msg="Obrigado(a)")
+	puts "A nota do restaurante foi #{nota}. #{msg}"
 end
 
+# chamada com parâmetros opcionais:
 qualifica(10)
+qualifica(1, "Comida ruim")
+
