@@ -38,7 +38,7 @@ class Pessoa
 end
 
 glaucia = Pessoa.new("Glaucia Lemos")
-=end
+
 
 class Pessoa
 	def nome # acessor (assim como os getters & setters em: Java e .NET)
@@ -56,3 +56,33 @@ pes.nome = "Glaucia Lemos"
 puts pes.nome
 
 # Saída: Glaucia Lemos
+
+cliente = "Disney"
+puts cliente.methods
+
+
+config = Hash.new 
+config["porta"] = 80
+config["ssh"] = false
+config["nome"] = "Caelum.com.br"
+
+puts config.size
+
+# Saída: 3
+
+puts config["ssh"]
+
+# Saída: false
+
+=end
+
+class Conta
+	def transfere(argumentos)
+		destino = argumentos[:destino]
+		data 	= argumentos[:data]
+		valor 	= argumentos[:valor]
+	end
+end
+
+aluno = Conta.new
+escola = Conta.new
