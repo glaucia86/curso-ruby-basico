@@ -1,7 +1,7 @@
 #
 # Aula: 13 - Exceções
 # Author: Glaucia Lemos
-# Data: 28/02/2017
+# Data: 01/03/2017
 # Observação: (exemplos realizados via terminal (cmd))
 #
 
