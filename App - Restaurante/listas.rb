@@ -53,3 +53,57 @@ franquia.adicionar restaurante_um, restaurante_dois
 franquia.mostrar
 
 restaurante_um.fechar_conta valor: 50, nota: 9, comentario:'Gostei!'
+
+
+# 4.19 - Exercícios - Blocos
+
+
+class Franquia
+	def initialize
+		@restaurantes = []
+	end
+
+	def adicionar(*restaurantes)
+		for restaurante in restaurantes
+			@restaurantes << restaurante
+		end
+	end
+
+	def mostrar
+		@restsaurantes.each do |r|
+			puts r.nome
+		end
+	end
+
+	def relatorio
+		@restaurantes.each do |r|
+			yield r
+		end
+	end
+end
+
+class Restaurante
+	attr_accessor :nome
+
+	def fechar_conta(dados)
+		puts "Conta fechada no valor de #{dados[:valor]} e com nota #{dados[:nota]}. Comentário: #{dados[:comentario]}"
+	end
+end
+
+
+restaurante_um = Restaurante.new
+restaurante_um.nome = "Fasano"
+
+restaurante_dois = Restaurante.new
+restaurante_dois.nome = "Fogo de Chao"
+
+franquia = Franquia.new
+franquia.adicionar restaurante_um, restaurante_dois
+
+franquia.mostrar
+
+restaurante_um.fechar_conta valor: 50, nota: 9, comentario:'Gostei!'
+
+franquia.relatorio do |r|
+		puts "Restaurante cadastrado: #{r.nome}"
+	end

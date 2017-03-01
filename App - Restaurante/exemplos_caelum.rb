@@ -74,7 +74,7 @@ puts config["ssh"]
 
 # Saída: false
 
-=end
+
 
 class Conta
 	def transfere(argumentos)
@@ -86,3 +86,23 @@ end
 
 aluno = Conta.new
 escola = Conta.new
+
+=end
+
+class Banco
+	def initialize(contas)
+		@contas = contas
+	end
+
+	def status
+		saldo = 0
+		for conta in @contas
+			puts saldo
+		end
+		saldo
+	end
+end
+
+banco = Banco.new([200,300,400])
+banco.status
+puts banco.status
