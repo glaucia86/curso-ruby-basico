@@ -30,6 +30,3 @@ Link da apostila da Caelum: [AQUI](https://www.caelum.com.br/apostila-ruby-on-ra
 * 11) Input e Output (IO)
 * 12) Exceções
 * 13) Classes
-* 14) Finalização do Curso
-
-(documentação em desenvolvimento)
